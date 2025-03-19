@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#panorama-360-view {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Ensure there's enough space at the bottom for the button */
+  padding-bottom: 60px;
+}
+
+.content {
+  padding: 20px;
+}
+
+  
+  #myBtn {
+    display: none;
+    background-image: url(../img/1_disney.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 60px; /* Set fixed width */
+    height: 60px; /* Set fixed height */
+    border-radius: 50%;
+  }
+  #myBtn:hover {
+    background-color: #555;
+  }
