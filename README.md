@@ -1,5 +1,5 @@
 # Family-album-website
 Family Japan Trip album website
 
-## Full version Website link:
+## Online Website link:
 https://edit-ver-blog.netlify.app/
